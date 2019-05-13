@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="444.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UIController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff09" height="426.0" layoutX="4.0" layoutY="16.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <TextField fx:id="text2qr" alignment="TOP_LEFT" layoutX="14.0" layoutY="23.0" prefHeight="184.0" prefWidth="256.0" />
+      <JFXButton fx:id="genrate" layoutX="124.0" layoutY="216.0" style="-fx-background-color: gray; -fx-border-radius: 1px;" text="generate your code QR" textFill="WHITE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4c7ead00" height="232.0" layoutX="307.0" layoutY="23.0" stroke="BLACK" strokeType="INSIDE" width="256.0" />
+      <ImageView fx:id="image" fitHeight="222.0" fitWidth="243.0" layoutX="314.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" />
+      <Line endX="-417.0" endY="469.5" layoutX="421.0" layoutY="-197.0" startX="179.0" startY="469.5" />
+      <JFXButton fx:id="browse" layoutX="222.0" layoutY="314.0" style="-fx-background-color: gray; -fx-border-radius: 1px;" text="browse" textFill="WHITE" />
+      <JFXTextField fx:id="path" focusColor="#949494" layoutX="8.0" layoutY="314.0" prefHeight="25.0" prefWidth="214.0" />
+      <JFXButton fx:id="read" layoutX="10.0" layoutY="359.0" style="-fx-background-color: gray; -fx-border-radius: 1px;" text="read the QR code" textFill="WHITE" />
+      <TextField fx:id="qr2text" alignment="TOP_LEFT" layoutX="300.0" layoutY="280.0" prefHeight="158.0" prefWidth="298.0" />
+      <JFXComboBox fx:id="QRtype" layoutX="14.0" layoutY="216.0" prefHeight="25.0" prefWidth="101.0" />
+      <Label layoutX="10.0" text="v 0.0.1" />
+      <Label layoutX="529.0" text="By yako Ven" />
+   </children>
+</Pane>
